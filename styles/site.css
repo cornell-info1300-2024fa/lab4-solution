@@ -1,0 +1,76 @@
+/* Note: No credit is provided for submitting design and/or code that is taken */
+/*       from course-provided examples.                                        */
+/*                                                                             */
+/* Do not copy this code into your project submission and then change it.      */
+/*                                                                             */
+/* Write your own code from scratch. Use this example as a REFERENCE only.     */
+/*                                                                             */
+/* You may not copy this code, change a few names/variables, and then claim it */
+/* as your own. It does not matter if you can explain what every line does.    */
+/*                                                                             */
+/* Examples are provided to help you learn. Copying the example and then       */
+/* changing it a bit, does not help you learn the learning objectives of this  */
+/* assignment. You need to write your own code from scratch to help you learn. */
+
+html {
+  font-family: 'Lucida Grande', 'Cantarell', 'Arial', sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  margin: 18px;
+}
+
+nav menu {
+  margin: 0;
+  padding: 0;
+}
+
+nav menu li {
+  list-style: none;
+}
+
+nav menu li a {
+  display: block;
+  padding: 10px;
+
+  border-left: 8px solid white;
+  color: black;
+
+  font-size: 140%;
+  text-decoration: none;
+}
+
+nav menu li a:hover {
+  border-left: 8px solid #55bea9;
+}
+
+h2 {
+  font-size: 160%;
+}
+
+.readable {
+  padding: 4px 12px;
+
+  background-color: white;
+  color: rgb(47, 70, 108);
+}
+
+.fit-width {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  min-width: 400px;
+}
+
+.button {
+  width: max-content;
+
+  /* TODO: style link as a button */
+}
